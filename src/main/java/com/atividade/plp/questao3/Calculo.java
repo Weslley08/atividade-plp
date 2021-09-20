@@ -5,15 +5,15 @@ public class Calculo {
 	private double largura;
 	private double altura;
 
-	String area() {
+	public String area() {
 		return "AREA = " + largura * altura;
 	}
 
-	String perimetro() {
+	public String perimetro() {
 		return "PERIMETRO = " + (altura * 2) + (largura * 2);
 	}
 
-	String diagonal() {
+	public String diagonal() {
 		double diagonal = (largura * largura) + (altura * altura);
 		return "DIAGONAL = " + Math.sqrt(diagonal);
 	}
