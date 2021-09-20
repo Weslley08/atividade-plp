@@ -2,7 +2,7 @@ package com.atividade.plp.questao1;
 
 import java.util.Scanner;
 
-public class main {
+public class Principal {
 
     public static void main(String[] args) {
 
@@ -16,8 +16,6 @@ public class main {
         System.out.println("Informe a idade da primeira pessoa");
         int numero1 = qLer.nextInt();
         classe.setIdadePrimeira(numero1);
-
-        qLer = new Scanner(System.in);
 
         System.out.println("Informe o nome da segunda pessoa");
         String nome2 = qLer.nextLine();
