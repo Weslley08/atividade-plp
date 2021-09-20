@@ -1,6 +1,6 @@
 import math
 
-class Calculo():
+class CalculoRetangulo():
     largura = 0
     altura = 0
 
@@ -15,5 +15,15 @@ def diagonal(altura, largura):
     math.sqrt(diagonal)
     return "DIAGONAL = " + diagonal
 
+
+def __init__(self) -> None:
+    # Construtor vazio
+    pass
+
+def set_largura(self, largura):
+    self.largura = largura
+
+def set_altura(self, altura):
+    self.altura = altura
 
 

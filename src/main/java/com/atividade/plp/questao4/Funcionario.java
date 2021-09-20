@@ -6,8 +6,8 @@ public class Funcionario {
     double salarioBruto;
     double imposto;
 
-
     public Funcionario() {
+        //Construtor vazio
 
     }
 
@@ -41,10 +41,9 @@ public class Funcionario {
         return salarioLiquido;
     }
 
-    double AumentarSalario(double porcentagem) {
+    double aumentarSalario(double porcentagem) {
         double salarioLiquido = this.salarioBruto - this.imposto;
-        double novoSalario = (salarioBruto * porcentagem) / 100 + salarioLiquido;
-        return novoSalario;
+        return (salarioBruto * porcentagem) / 100 + salarioLiquido;
     }
 
 

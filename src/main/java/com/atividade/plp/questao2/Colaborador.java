@@ -6,6 +6,7 @@ public class Colaborador {
     double salario;
 
     public Colaborador() {
+        //Construtor vazio
     }
 
     public String getNome() {

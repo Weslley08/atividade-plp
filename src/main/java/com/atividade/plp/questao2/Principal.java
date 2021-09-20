@@ -2,7 +2,7 @@ package com.atividade.plp.questao2;
 
 import java.util.Scanner;
 
-public class main {
+public class Principal {
 
     public static void main(String[] args) {
 
@@ -34,8 +34,9 @@ public class main {
         }
         System.out.println("\n");
         System.out.println("---------------------------------");
-        System.out.println(String.format("A média dos salários é R$ %.2f ", controllerFuncionario.mediaSalario()));
+        System.out.println(String.format("A média dos salários é R$ %.2f ", ControllerColaboradores.mediaSalario()));
         System.out.println("---------------------------------");
 
+        leitor.close();
     }
 }

@@ -19,10 +19,8 @@ public class ControllerColaboradores {
         for (Colaborador f : colaboradors) {
         total += f.getSalario();
         }
-
-        double mediaSalario = total /2;
-
-        return mediaSalario;
+        
+        return total /2;
 
     }
 

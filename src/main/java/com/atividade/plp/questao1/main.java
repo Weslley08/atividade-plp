@@ -1,11 +1,10 @@
-package q1;
+package com.atividade.plp.questao1;
 
 import java.util.Scanner;
 
 public class main {
 
     public static void main(String[] args) {
-
 
         dadosPessoais classe = new dadosPessoais();
         Scanner qLer = new Scanner(System.in);
@@ -28,9 +27,9 @@ public class main {
         int numero2 = qLer.nextInt();
         classe.setIdadeSegunda(numero2);
 
-
         System.out.println(classe.maisVelho());
 
+        qLer.close();
     }
 
 }

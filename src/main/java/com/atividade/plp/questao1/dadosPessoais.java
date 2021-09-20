@@ -1,12 +1,14 @@
-package q1;
+package com.atividade.plp.questao1;
 
 public class dadosPessoais {
+
     private String nomePrimeira;
     private int idadePrimeira;
     private String nomeSegunda;
     private int idadeSegunda;
 
     public dadosPessoais(){
+        //Construtor vazio
     }
 
     public String getNomePrimeira() {
@@ -45,9 +47,9 @@ public class dadosPessoais {
 
         if(idadePrimeira > idadeSegunda){
 
-            return nomePrimeira + " é a mais velha";
+            return nomePrimeira + " Ã© a pessoa mais velha";
         } else {
-            return nomeSegunda + " é a mais velha";
+            return nomeSegunda + " Ã© a pessoa mais velha";
 
         }
 

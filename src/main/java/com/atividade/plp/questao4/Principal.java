@@ -2,7 +2,7 @@ package com.atividade.plp.questao4;
 
 import java.util.Scanner;
 
-public class main {
+public class Principal {
 
     public static void main(String[] args) {
 
@@ -23,10 +23,9 @@ public class main {
 
         System.out.println("Digite a porcentagem para aumentar o salário: ");
         double porcetagem = leitor.nextDouble();
-        funcionario.AumentarSalario(porcetagem);
+        funcionario.aumentarSalario(porcetagem);
         System.out.println("\n");
         System.out.println("\n");
-
 
         System.out.println("------------------------------ ");
         System.out.println("Dados do Funcionário: ");
@@ -38,13 +37,8 @@ public class main {
         System.out.println("\n");
 
         System.out.println("DADOS ATUALIZADOS");
-        System.out.println("Nome: " + funcionario.getNome() + ", R$ " +  funcionario.AumentarSalario(porcetagem));
+        System.out.println("Nome: " + funcionario.getNome() + ", R$ " +  funcionario.aumentarSalario(porcetagem));
 
-
-
-
-
-
-
+        leitor.close();
     }
 }
