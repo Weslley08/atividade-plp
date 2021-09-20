@@ -1,4 +1,4 @@
-package com.questao04;
+package com.atividade.plp.questao4;
 
 public class Funcionario {
 

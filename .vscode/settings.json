@@ -1,3 +1,11 @@
 {
-    "java.dependency.packagePresentation": "hierarchical"
+    "java.dependency.packagePresentation": "hierarchical",
+    "python.formatting.provider": "autopep8",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.testing.pytestArgs": [
+        "python"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
 }

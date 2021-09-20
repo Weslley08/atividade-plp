@@ -1,4 +1,4 @@
-class Menu():
+class Principal():
     largura = 0
     altura = 0
 

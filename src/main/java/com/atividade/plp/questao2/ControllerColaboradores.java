@@ -1,4 +1,4 @@
-package com.questao02;
+package com.atividade.plp.questao2;
 
 import java.util.ArrayList;
 
