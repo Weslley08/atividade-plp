@@ -6,7 +6,7 @@ public class Principal {
 
     public static void main(String[] args) {
 
-        dadosPessoais classe = new dadosPessoais();
+        DadosPessoais classe = new DadosPessoais();
         Scanner qLer = new Scanner(System.in);
 
         System.out.println("Informe o nome da primeira pessoa");

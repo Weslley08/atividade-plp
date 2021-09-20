@@ -1,8 +1,8 @@
 import math
 
 class CalculoRetangulo():
-    largura = 0
-    altura = 0
+    __largura = 0
+    __altura = 0
 
 def area(altura, largura):
     return "AREA = " + altura * largura

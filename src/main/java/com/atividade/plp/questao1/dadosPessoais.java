@@ -1,49 +1,34 @@
 package com.atividade.plp.questao1;
 
-public class dadosPessoais {
+public class DadosPessoais {
 
     private String nomePrimeira;
     private int idadePrimeira;
     private String nomeSegunda;
     private int idadeSegunda;
 
-    public dadosPessoais(){
+    public DadosPessoais(){
         //Construtor vazio
-    }
-
-    public String getNomePrimeira() {
-        return nomePrimeira;
     }
 
     public void setNomePrimeira(String nomePrimeira) {
         this.nomePrimeira = nomePrimeira;
     }
 
-    public int getIdadePrimeira() {
-        return idadePrimeira;
-    }
-
     public void setIdadePrimeira(int idadePrimeira) {
         this.idadePrimeira = idadePrimeira;
     }
 
-    public String getNomeSegunda() {
-        return nomeSegunda;
-    }
-
+    
     public void setNomeSegunda(String nomeSegunda) {
         this.nomeSegunda = nomeSegunda;
-    }
-
-    public int getIdadeSegunda() {
-        return idadeSegunda;
     }
 
     public void setIdadeSegunda(int idadeSegunda) {
         this.idadeSegunda = idadeSegunda;
     }
 
-    public  String maisVelho(){
+    public String maisVelho(){
 
         if(idadePrimeira > idadeSegunda){
 
