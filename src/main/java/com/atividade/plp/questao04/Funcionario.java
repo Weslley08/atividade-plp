@@ -44,8 +44,6 @@ public class Funcionario {
     double AumentarSalario(double porcentagem) {
         double salarioLiquido = this.salarioBruto - this.imposto;
         double novoSalario = (salarioBruto * porcentagem) / 100 + salarioLiquido;
-        //this.salarioBruto = novoSalario;
-        //return salarioBruto;
         return novoSalario;
     }
 
