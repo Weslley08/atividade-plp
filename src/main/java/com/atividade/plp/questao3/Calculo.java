@@ -6,11 +6,13 @@ public class Calculo {
 	private double altura;
 
 	public String area() {
+
 		return "AREA = " + largura * altura;
 	}
 
 	public String perimetro() {
-		return "PERIMETRO = " + (altura * 2) + (largura * 2);
+
+		return "PERIMETRO = " + ((altura * 2) + (largura * 2));
 	}
 
 	public String diagonal() {

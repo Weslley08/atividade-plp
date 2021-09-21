@@ -1,12 +1,19 @@
 package com.atividade.plp.questao1;
 
+import com.atividade.plp.menu.Menuselecao;
+
 import java.util.Scanner;
 
 public class Principal {
 
-    public static void main(String[] args) {
 
-        DadosPessoais classe = new DadosPessoais();
+    public void questao01() {
+
+        Menuselecao menuselecao = new Menuselecao();
+
+        System.out.println("QUESTÃO 01 - " +
+                "Fazer um programa para ler os dados de duas pessoas, depois mostrar o nome da pessoa mais velha. \n");
+        dadosPessoais classe = new dadosPessoais();
         Scanner qLer = new Scanner(System.in);
 
         System.out.println("Informe o nome da primeira pessoa");
@@ -17,6 +24,8 @@ public class Principal {
         int numero1 = qLer.nextInt();
         classe.setIdadePrimeira(numero1);
 
+        qLer = new Scanner(System.in); // bug fix buffer
+
         System.out.println("Informe o nome da segunda pessoa");
         String nome2 = qLer.nextLine();
         classe.setNomeSegunda(nome2);
@@ -25,9 +34,26 @@ public class Principal {
         int numero2 = qLer.nextInt();
         classe.setIdadeSegunda(numero2);
 
+
+        // RESOLUÇÃO DA QUESTÃO
         System.out.println(classe.maisVelho());
 
-        qLer.close();
+
+        // RETORNAR PARA O MENU
+        System.out.println("\n");
+
+        System.out.println("Deseja Continuar? " +
+                "\n 1 - SIM" +
+                "\n 2 - NÃO");
+
+
+        int menuopcao = qLer.nextInt();
+        menuselecao.selecao(menuopcao);
+
+
+
+
+
     }
 
 }

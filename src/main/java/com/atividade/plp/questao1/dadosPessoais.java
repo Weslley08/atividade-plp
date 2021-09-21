@@ -1,13 +1,13 @@
 package com.atividade.plp.questao1;
 
-public class DadosPessoais {
+public class dadosPessoais {
 
     private String nomePrimeira;
     private int idadePrimeira;
     private String nomeSegunda;
     private int idadeSegunda;
 
-    public DadosPessoais(){
+    public dadosPessoais(){
         //Construtor vazio
     }
 
