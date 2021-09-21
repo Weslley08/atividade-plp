@@ -1,0 +1,5 @@
+C:\Workspace\atividade-plp\C#\Questao5\obj\Debug\net5.0\Questao5.csproj.AssemblyReference.cache
+C:\Workspace\atividade-plp\C#\Questao5\obj\Debug\net5.0\Questao5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\atividade-plp\C#\Questao5\obj\Debug\net5.0\Questao5.AssemblyInfoInputs.cache
+C:\Workspace\atividade-plp\C#\Questao5\obj\Debug\net5.0\Questao5.AssemblyInfo.cs
+C:\Workspace\atividade-plp\C#\Questao5\obj\Debug\net5.0\Questao5.csproj.CoreCompileInputs.cache

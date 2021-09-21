@@ -10,7 +10,7 @@ public class Calculo {
 	}
 
 	public String perimetro() {
-		return "PERIMETRO = " + (altura * 2) + (largura * 2);
+		return "PERIMETRO = " + ((altura * 2) + (largura * 2));
 	}
 
 	public String diagonal() {
