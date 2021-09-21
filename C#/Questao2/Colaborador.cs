@@ -8,12 +8,12 @@ namespace Questao2
         private String nome;
         private double salario;
 
-        private String NOME{
+        public String NOME{
             get{return nome;}
             set{nome = value;}
         }
 
-        private double SALARIO
+        public double SALARIO
         {
             get{return salario;}
             set{salario = value;}
