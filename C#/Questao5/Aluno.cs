@@ -5,41 +5,50 @@ namespace Questao5
     class Aluno
     {
 
-        private string name;
-        private double n1;
-        private double n2;
-        private double n3;
-        private double notaFinal;
+        private string nome;
+        private Double nota1;
+        private Double nota2;
+        private Double nota3;
+        private Double notaFinal;
 
         public Aluno()
         {
             //Construtor vazio
         }
 
-        public string NAME 
+        public string NOME 
         {
-            set{name = value;}
+            get{return nome;}
+            set{nome = value;}
         }
 
-        public double N1
+        public Double NOTA1
         {
-            set{n1 = value;}
+            get{return nota1;}
+            set{nota1 = value;}
         }
 
-        public double N2
+        public Double NOTA2
         {
-            set{n2 = value;}
+            get{return nota2;}
+            set{nota2 = value;}
         }
 
-        public double N3
+        public Double NOTA3
         {
-            set{n3 = value;}
+            get{return nota3;}
+            set{nota3 = value;}
         }
 
+        public Double NOTA_FINAL
+        {
+            get{return notaFinal;}
+            set{notaFinal = value;}
+        }
 
         public String somarNota() 
         {
-            notaFinal = (n1 + n2 + n3);
+            notaFinal = (nota1 + nota2 + nota3);
             return "NOTA FINAL = " + notaFinal;
         }
 
