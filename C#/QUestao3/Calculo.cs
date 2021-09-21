@@ -2,20 +2,20 @@ using System;
 
 class Calculo 
 {
-    public double altura;
-    public double largura;
+    private double altura;
+    private double largura;
 
     public Calculo()
     {
         //Construtor vazio
     }
 
-    public string ALTURA
+    public double ALTURA
     {
         set{altura = value;}
     }
     
-    public int LARGURA
+    public double LARGURA
     {
         set{largura = value;}
     }
@@ -28,13 +28,14 @@ class Calculo
 
     public string perimetro()
     {
-        return "PERIMETRO = " + (altura * 2) + (largura * 2);
+        return "PERIMETRO = " + ((altura * 2) + (largura * 2));
     }
 
     public string diagonal() 
     {
-        double diagonal = (largura * largura) + (altura * altura);
-		return "DIAGONAL = " + Math.Sqrt(diagonal);
+        double diagonal = ((largura * largura) + (altura * altura));
+        Math.Sqrt(diagonal);
+		return "DIAGONAL = " + diagonal;
     }
 
 }

@@ -2,7 +2,7 @@ using System;
 
 class Pessoa 
 {
-    public String nomePrimeira;
+    private String nomePrimeira;
     private int idadePrimeira;
     private String nomeSegunda;
     private int idadeSegunda;
