@@ -3,10 +3,10 @@ package com.atividade.plp.questao5;
 public class Aluno {
 
     private String name;
-    private double n1;
-    private double n2;
-    private double n3;
-    private double notaFinal;
+    private int n1;
+    private int n2;
+    private int n3;
+    private int notaFinal;
 
     public String somarNota() {
         notaFinal = (n1 + n2 + n3);
@@ -29,10 +29,6 @@ public class Aluno {
         }
     }
 
-    public Aluno() {
-        super();
-    }
-    
     public String getName() {
         return name;
     }
@@ -41,16 +37,36 @@ public class Aluno {
         this.name = name;
     }
 
-    public void setNota1(double n1) {
+    public int getNota1() {
+        return n1;
+    }
+
+    public void setNota1(int n1) {
         this.n1 = n1;
     }
 
-    public void setNota2(double n2) {
-        this.n1 = n2;
+    public int getNota2() {
+        return n2;
     }
 
-    public void setNota3(double n3) {
-        this.n1 = n3;
+    public void setNota2(int n2) {
+        this.n2 = n2;
     }
 
+    public int getNota3() {
+        return n3;
+    }
+
+    public void setNota3(int n3) {
+        this.n3 = n3;
+    }
+
+    public int getNotaFinal() {
+        return notaFinal;
+    }
+
+    public void setNotaFinal(int notaFinal) {
+        this.notaFinal = notaFinal;
+    }
 }
+

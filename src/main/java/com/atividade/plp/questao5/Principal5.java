@@ -24,16 +24,17 @@ public class Principal5 {
         aluno.setName(nome);
 
         System.out.println("Qual a primeira nota do aluno?");
-        double nota1 = scanner.nextDouble();
+        int nota1 = scanner.nextInt();
         aluno.setNota1(nota1);
 
         System.out.println("Qual a segunda nota do aluno?");
-        double nota2 = scanner.nextDouble();
+        int nota2 = scanner.nextInt();
         aluno.setNota2(nota2);
 
         System.out.println("Qual a terceira nota do aluno?");
-        double nota3 = scanner.nextDouble();
+        int nota3 = scanner.nextInt();
         aluno.setNota3(nota3);
+
 
         //RESOLUÇÃO QUESTÃO
         System.out.println(aluno.somarNota());
