@@ -4,8 +4,8 @@ namespace Questao5
 {
     class Aluno
     {
-        
-        private String name;
+
+        private string name;
         private double n1;
         private double n2;
         private double n3;
@@ -16,24 +16,24 @@ namespace Questao5
             //Construtor vazio
         }
 
-        public NAME 
+        public string NAME 
         {
-            set{nome = value;}
+            set{name = value;}
         }
 
-        public N1
+        public double N1
         {
-            set{n1 = value}
+            set{n1 = value;}
         }
 
-        public N2
+        public double N2
         {
-            set{n2 = value}
+            set{n2 = value;}
         }
 
-        public N3
+        public double N3
         {
-            set{n3 = value}
+            set{n3 = value;}
         }
 
 
