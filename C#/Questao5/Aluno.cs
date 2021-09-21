@@ -5,11 +5,11 @@ namespace Questao5
     class Aluno
     {
 
-        private string nome;
-        private Double nota1;
-        private Double nota2;
-        private Double nota3;
-        private Double notaFinal;
+        private string nome = "";
+        private Double nota1 = 0;
+        private Double nota2 = 0;
+        private Double nota3 = 0;
+        private Double notaFinal = 0;
 
         public Aluno()
         {

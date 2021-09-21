@@ -34,8 +34,7 @@ class Calculo
     public string diagonal() 
     {
         double diagonal = ((largura * largura) + (altura * altura));
-        Math.Sqrt(diagonal);
-		return "DIAGONAL = " + diagonal;
+		return "DIAGONAL = " + Math.Sqrt(diagonal);
     }
 
 }

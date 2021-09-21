@@ -4,15 +4,10 @@
   <artifactId>atividade-plp</artifactId>
   <version>1.0</version>
   <name>atividade-plp</name>
-<<<<<<< HEAD
 	<properties>
 		<java.version>1.8</java.version>
 		<maven.compiler.source>16</maven.compiler.source>
 		<maven.compiler.target>16</maven.compiler.target>
-=======
-  <properties>
-		<java.version>1</java.version>
->>>>>>> 3ee876a9b6f59636ee9fffe9c146c5f05137812e
 	</properties>
   <dependencies>
 	<dependency>

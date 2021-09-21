@@ -6,14 +6,14 @@ import java.util.Scanner;
 
 public class Principal4 {
 
-    public void questao04(){
+    public void questao04() {
 
         Menuselecao menuselecao = new Menuselecao();
 
-        System.out.println("QUESTAO 04 " +
-                "Fazer um programa para ler os dados de um funcionário (nome, salário bruto e imposto). Em seguida, " +
-                "mostrar os dados do funcionário (nome e salário líquido). Em seguida, aumentar o salário do funcionário com base em uma porcentagem dada " +
-                "(somente o salário bruto é afetado pela porcentagem) e mostrar novamente os dados do funcionário. ");
+        System.out.println("QUESTAO 04 "
+                + "Fazer um programa para ler os dados de um funcionário (nome, salário bruto e imposto). Em seguida, "
+                + "mostrar os dados do funcionário (nome e salário líquido). Em seguida, aumentar o salário do funcionário com base em uma porcentagem dada "
+                + "(somente o salário bruto é afetado pela porcentagem) e mostrar novamente os dados do funcionário. ");
 
         Funcionario funcionario = new Funcionario();
         Scanner leitor = new Scanner(System.in);
@@ -36,26 +36,23 @@ public class Principal4 {
         System.out.println("\n");
         System.out.println("\n");
 
-        //RESOLUÇÃO QUESTÃO
+        // RESOLUÇÃO QUESTÃO
         System.out.println("------------------------------ ");
         System.out.println("Dados do Funcionário: ");
         System.out.println("Nome: " + funcionario.getNome());
         System.out.println("Salário bruto: R$ " + funcionario.getSalarioBruto());
-        System.out.println("Imposto R$ "+ funcionario.getImposto());
+        System.out.println("Imposto R$ " + funcionario.getImposto());
         System.out.println("Salário Líquido: R$ " + funcionario.SalarioLiquido());
         System.out.println("------------------------------ ");
         System.out.println("\n");
 
         System.out.println("DADOS ATUALIZADOS");
-        System.out.println("Nome: " + funcionario.getNome() + ", R$ " +  funcionario.aumentarSalario(porcetagem));
+        System.out.println("Nome: " + funcionario.getNome() + ", R$ " + funcionario.aumentarSalario(porcetagem));
 
         // RETORNAR PARA O MENU
         System.out.println("\n");
 
-        System.out.println("Deseja Continuar? " +
-                "\n 1 - SIM" +
-                "\n 2 - NÃO");
-
+        System.out.println("Deseja Continuar? " + "\n 1 - SIM" + "\n 2 - NÃO");
 
         int menuopcao = leitor.nextInt();
         menuselecao.selecao(menuopcao);

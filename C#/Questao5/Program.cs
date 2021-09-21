@@ -6,6 +6,7 @@ namespace Questao5
     {
         static void Main(string[] args)
         {
+            Console.Clear();
             Aluno aluno = new Aluno();
 
             Console.WriteLine("Qual o nome do aluno?");
@@ -13,30 +14,22 @@ namespace Questao5
             aluno.NOME = nome;
 
             Console.WriteLine("Qual a primeira nota do aluno?");
-            Double nota1 = Console.Read();
-            aluno.NOTA1 = nota1;
-
-            Console.ReadLine();
+            string nota1 = Console.ReadLine();
+            aluno.NOTA1 = double.Parse(nota1);
 
             Console.WriteLine("Qual a segunda nota do aluno?");
-            Double nota2 = Console.Read();
-            aluno.NOTA2 = nota2;
-
-            Console.ReadLine();
+            string nota2 = Console.ReadLine();
+            aluno.NOTA2 = double.Parse(nota2);
 
             Console.WriteLine("Qual a terceira nota do aluno?");
-            Double nota3 = Console.Read();
-            aluno.NOTA3 = nota3;
+            string nota3 = Console.ReadLine();
+            aluno.NOTA3 = double.Parse(nota3);
+
 
             Console.WriteLine("Nome : " + aluno.NOME);
-            Console.WriteLine("Nota 1 = " + aluno.NOTA1);
-            Console.WriteLine("Nota 2 = " + aluno.NOTA2);
-            Console.WriteLine("Nota 3 = " + aluno.NOTA3);
-            Console.WriteLine("Nota Final = " + aluno.NOTA_FINAL);
-
-            /*Console.WriteLine(aluno.somarNota());
+            Console.WriteLine(aluno.somarNota());
             Console.WriteLine(aluno.aprovadoOuReprovado());
-            Console.WriteLine(aluno.quantoFalta());*/
+            Console.WriteLine(aluno.quantoFalta());
         }
     }
 }
