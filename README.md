@@ -1,4 +1,4 @@
-# ATIVIDADE DE PARADIGMAS DE LINGUAGENS DE PROGRAMAÇÃO
+## ATIVIDADE DE PARADIGMAS DE LINGUAGENS DE PROGRAMAÇÃO
 
 <p> Professor: Gilson Damaso <br>
 Alunos: Caio Chaalegre, Paulo Lucena e Weslley Cezario. </p>
@@ -11,7 +11,7 @@ Alunos: Caio Chaalegre, Paulo Lucena e Weslley Cezario. </p>
 
 <br>
 
-> ### QUESTõES:
+> ### QUESTÕES:
 
 >> QUESTÃO 01: 
 Fazer um programa para ler os dados de duas pessoas, <br>
